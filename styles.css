@@ -1,0 +1,124 @@
+div {
+  /*
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+
+  margin: 0;
+}
+
+ body { /*
+   background-attachment: local;
+   background-color: #0093E9;
+   background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+   background-color: #ff4e00;
+   background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+   text-align:  center;
+   font-family: Merriweather, serif;
+   background-attachment: fixed;
+   background-position: center;
+ }
+
+ h1 {
+   width: 20%;
+   margin: 0 auto;
+   font-family: Great Vibes, cursive;
+   font-size: 56px;
+ }
+
+ p {
+
+ }
+
+ .top-container {
+   position: relative;
+   padding-top: 100px;
+ }
+
+ .middle-container {
+
+ }
+
+.bottom-container {
+
+}
+
+.eng {
+  text-decoration: underline;
+}
+
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+
+.btm-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ff4e00;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contact-me {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
+/*
+.red {
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+  height: 100px;
+  left: 200px;
+  top: 200px;
+  width: 100px;
+}
+
+.blue {
+  background-color: blue;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 100px;
+  left: 100px;
+}
+
+.yellow {
+  background-color: yellow;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+}
+*/
